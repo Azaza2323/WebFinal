@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Astana Care Clinic</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="/logos/LogoACC2.png" />
+    <link rel="stylesheet" href="/style/bootstrap.css" />
+    <link rel="stylesheet" href="/style/custom.css" />
+    <link rel="stylesheet" href="/style/fordirect.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/modal.js"></script>
+    <link rel="stylesheet" href="/style/tooltip.css" />
+    <script src="/js/tooltip.js"></script>
+    <script
+      src="https://kit.fontawesome.com/aa2e4d646e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Start Top Nav -->
+    <nav
+      class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block"
+      id="templatemo_nav_top"
+    >
+      <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+          <div>
+            <i class="fa fa-envelope mx-2"></i>
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="mailto:info@company.com"
+              >info@company.com</a
+            >
+            <i class="fa fa-phone mx-2"></i>
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="tel:010-020-0340"
+              >010-020-0340</a
+            >
+          </div>
+          <div>
+            <a
+              class="text-light"
+              href="https://fb.com/templatemo"
+              target="_blank"
+              rel="sponsored"
+              ><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://www.instagram.com/"
+              target="_blank"
+              ><i class="fab fa-instagram fa-sm fa-fw me-2"></i
+            ></a>
+            <a class="text-light" href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter fa-sm fa-fw me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              ><i class="fab fa-linkedin fa-sm fa-fw"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a
+          class="navbar-brand text-success logo h1 align-self-center"
+          href="index.html"
+        >
+          <img src="/logos/LogoACC.png" style="width: 50%" />
+        </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#templatemo_main_nav"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+          id="main_nav"
+        >
+          <div class="flex-fill">
+            <ul
+              class="nav navbar-nav d-flex justify-content-between mx-lg-auto"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="directions.html">Directions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reviews.html">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="location.html">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <p id="tooltip-text">The tooltip text.</p>
+    <audio id="modalSound">
+      <source src="/sound/sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+  </audio>
+    <h4 class="forh4">Our Directions</h4>
+    <div class="containerr">
+          <div class="child"  data-modal-target="cardiologyModal">
+            <img src="/img/cardio.svg" alt="Cardiology">
+            <p>Cardiology</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="diagnosticsModal">
+            <img src="/img/diagnostika.svg" alt="Diagnostics">
+            <p>Diagnostics</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="surgeryModal">
+            <img src="/img/hirurg.svg" alt="Surgery">
+            <p>Surgery</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="houseCallModal">
+            <img src="/img/home.svg" alt="House Call">
+            <p>House Call</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="balneologyModal">
+            <img src="/img/massage.svg" alt="Balneology">
+            <p>Balneology</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="neurologyModal">
+            <img src="/img/nevro.svg" alt="Neurology">
+            <p>Neurology</p>
+          </div>
+
+
+          <div class= "child"  data-modal-target="checkupsModal">
+            <img src="/img/obs.svg" alt="Check-ups">
+            <p>Check-ups</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="pedterapyModal">
+            <img src="/img/pedterapy.svg" alt="Pedterapy">
+            <p>Pedterapy</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="logopediaModal">
+            <img src="/img/pitanie.svg" alt="Logopedia">
+            <p>Logopedia</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="pulmonologyModal">
+            <img src="/img/pulma.svg" alt="Pulmonology">
+            <p>Pulmonology</p>
+          </div>
+
+
+          <div class="child"  data-modal-target="dentistryModal">
+            <img src="/img/teeth.svg" alt="Dentistry">
+            <p>Dentistry</p>
+          </div>
+
+          <div class="child"  data-modal-target="urologyModal">
+            <img src="/img/uro.svg" alt="Urology">
+            <p>Urology</p>
+
+        </div>
+      </div>
+
+      
+    <!-- Modals -->
+    <!-- Cardiology Modal -->
+    <div class="modal" id="cardiologyModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="cardiologyModal">&times;</span>
+          <h5>Cardiology</h5>
+          <img src="/img/cardio.svg" alt="Cardiology">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Diagnostics Modal -->
+  <div class="modal" id="diagnosticsModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="diagnosticsModal">&times;</span>
+          <h5>Diagnostics</h5>
+          <img src="/img/diagnostika.svg" alt="Diagnostics">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Surgery Modal -->
+  <div class="modal" id="surgeryModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="surgeryModal">&times;</span>
+          <h5>Surgery</h5>
+          <img src="/img/hirurg.svg" alt="Surgery">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- House Call Modal -->
+  <div class="modal" id="houseCallModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="houseCallModal">&times;</span>
+          <h5>House Call</h5>
+          <img src="/img/home.svg" alt="House Call">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Balneology Modal -->
+  <div class="modal" id="balneologyModal">
+      <div class = "modal-content">
+          <span class="close" data-modal-id="balneologyModal">&times;</span>
+          <h5>Balneology</h5>
+          <img src="/img/massage.svg" alt="Balneology">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Neurology Modal -->
+  <div class="modal" id="neurologyModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="neurologyModal">&times;</span>
+          <h5>Neurology</h5>
+          <img src="/img/nevro.svg" alt="Neurology">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Check-ups Modal -->
+  <div class="modal" id="checkupsModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="checkupsModal">&times;</span>
+          <h5>Check-ups</h5>
+          <img src="/img/obs.svg" alt="Check-ups">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Pedterapy Modal -->
+  <div class="modal" id="pedterapyModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="pedterapyModal">&times;</span>
+          <h5>Pedterapy</h5>
+          <img src="/img/pedterapy.svg" alt="Pedterapy">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Logopedia Modal -->
+  <div class="modal" id="logopediaModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="logopediaModal">&times;</span>
+          <h5>Logopedia</h5>
+          <img src="/img/pitanie.svg" alt="Logopedia">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Pulmonology Modal -->
+  <div class="modal" id="pulmonologyModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="pulmonologyModal">&times;</span>
+          <h5>Pulmonology</h5>
+          <img src="/img/pulma.svg" alt="Pulmonology">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Dentistry Modal -->
+  <div class="modal" id="dentistryModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="dentistryModal">&times;</span>
+          <h5>Dentistry</h5>
+          <img src="img/teeth.svg" alt="Dentistry">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+  <!-- Urology Modal -->
+  <div class="modal" id="urologyModal">
+      <div class="modal-content">
+          <span class="close" data-modal-id="urologyModal">&times;</span>
+          <h5>Urology</h5>
+          <img src="img/uro.svg" alt="Urology">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+    <footer class="bg-dark" id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 main border-bottom pb-3 border-light logo">Astana Care Clinic</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li>
+                          <i class="fas fa-map-marker-alt fa-fw"></i>
+                          123 Consectetur at ligula 10660
+                      </li>
+                      <li>
+                          <i class="fa fa-phone fa-fw"></i>
+                          <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                      </li>
+                      <li>
+                          <i class="fa fa-envelope fa-fw"></i>
+                          <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 main border-bottom pb-3 border-light">Directions</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li><a class="text-decoration-none" href="directions.html">Healthcare Solutions</a></li>
+                      <li><a class="text-decoration-none" href="directions.html">Preventive Care</a></li>
+                      <li><a class="text-decoration-none" href="directions.html">Medical Specialties</a></li>
+                     
+                  </ul>
+              </div>
+
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 main border-bottom pb-3 border-light">Further Info</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li><a class="text-decoration-none" href="#">FAQs</a></li>
+                      <li><a class="text-decoration-none" href="#">Contact</a></li>
+                  </ul>
+              </div>
+
+
+  </footer>
+
+</body>
+</html>

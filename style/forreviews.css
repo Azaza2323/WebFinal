@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  text-align: center;
+}
+ul {
+  column-width: 380px;
+  column-gap: 25px;
+}
+li {
+  display: inline-block;
+  position: relative;
+}
+.item {
+  position: relative;
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 25px;
+  margin-left: 70px;
+  box-shadow: 0px 3px 3px rgba(32, 32, 35, 0.08);
+  border-radius: 5px;
+}
+.item p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 23px;
+}
+.name {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #444444;
+  font-weight: bold;
+}
+.date {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+}
+
+.forma {
+  position: relative;
+  width: 625px;
+  height: 630px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.forma_heading {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.forma_img {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+.forma-row {
+  margin-bottom: 15px;
+}
+
+.forma_label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.forma_input,
+.forma_textarea {
+  width: 70%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.forma_send {
+  background-color: #406eb2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.forma_send:hover {
+  background-color: #406eb2;
+}

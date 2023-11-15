@@ -1,0 +1,50 @@
+:root {
+  --white-color: #ffffff;
+  --primary-color: #247cff;
+  --section-bg-color: #f9f9f9;
+  --dark-color: #000000;
+  --title-color: #565758;
+  --p-color: #717275;
+  --border-color: #eaeaea;
+
+  --body-font-family: "Raleway", sans-serif;
+
+  --h1-font-size: 48px;
+  --h2-font-size: 36px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 18px;
+  --menu-font-size: 16px;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+.main {
+  color: #406eb2;
+}
+#main_nav a {
+  color: black;
+}
+#main_nav a:hover {
+  color: #406eb2;
+}
+.location-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.map {
+  flex: 1;
+  height: 400px;
+  width: 100%;
+  margin: 20px;
+}
