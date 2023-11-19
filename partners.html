@@ -13,7 +13,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/modal.js"></script>
     <link rel="stylesheet" href="style/tooltip.css" />
+    <link rel="stylesheet" href="style/forpartners.css" />
     <script src="js/tooltip.js"></script>
+    <script src="js/slider.js"></script>
     <script
       src="https://kit.fontawesome.com/aa2e4d646e.js"
       crossorigin="anonymous"
@@ -127,205 +129,56 @@
       </div>
     </nav>
     <p id="tooltip-text">The tooltip text.</p>
-    <audio id="modalSound">
-      <source src="sound/sound.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-  </audio>
-    <h4 class="forh4">Our Directions</h4>
-    <div class="containerr">
-          <div class="child"  data-modal-target="cardiologyModal">
-            <img src="img/cardio.svg" alt="Cardiology">
-            <p>Cardiology</p>
+    
+
+
+<div>
+    <h2 class="title">Our partners!</h2>
+    <div class="cover">
+        
+        <button class="left" onclick="leftScroll()">
+          <i class="fas fa-angle-double-left"></i>
+        </button>
+        <div class="scroll-images">
+          <div class="child">
+            <img src="img/partners/mediker.webp" alt="mediker">
           </div>
-
-
-          <div class="child"  data-modal-target="diagnosticsModal">
-            <img src="img/diagnostika.svg" alt="Diagnostics">
-            <p>Diagnostics</p>
+          <div class="child">
+            <img src="img/partners/bio.png" alt="biosfera">
           </div>
-
-
-          <div class="child"  data-modal-target="surgeryModal">
-            <img src="img/hirurg.svg" alt="Surgery">
-            <p>Surgery</p>
+          <div class="child">
+            <img src="img/partners/infi.png" alt="">
           </div>
-
-
-          <div class="child"  data-modal-target="houseCallModal">
-            <img src="img/home.svg" alt="House Call">
-            <p>House Call</p>
+          <div class="child">
+            <img src="img/partners/mediscan.svg" alt="">
           </div>
-
-
-          <div class="child"  data-modal-target="balneologyModal">
-            <img src="img/massage.svg" alt="Balneology">
-            <p>Balneology</p>
+          <div class="child">
+            <img src="img/partners/logo1.png" alt="">
           </div>
-
-
-          <div class="child"  data-modal-target="neurologyModal">
-            <img src="img/nevro.svg" alt="Neurology">
-            <p>Neurology</p>
+          <div class="child">
+            <img src="img/partners/logo4.png" alt="">
           </div>
-
-
-          <div class= "child"  data-modal-target="checkupsModal">
-            <img src="img/obs.svg" alt="Check-ups">
-            <p>Check-ups</p>
+          <div class="child">
+            <img src="img/partners/logo_zerde.png" alt="">
           </div>
-
-
-          <div class="child"  data-modal-target="pedterapyModal">
-            <img src="img/pedterapy.svg" alt="Pedterapy">
-            <p>Pedterapy</p>
+          <div class="child">
+            <img src="https://thumb.tildacdn.com/tild3932-3961-4138-a465-633438613331/-/cover/84x84/center/center/-/format/webp/----.png" alt="">
           </div>
-
-
-          <div class="child"  data-modal-target="logopediaModal">
-            <img src="img/pitanie.svg" alt="Logopedia">
-            <p>Logopedia</p>
+          <div class="child">
+            <img src="img/partners/aitu-logo-3.png" alt="">
           </div>
-
-
-          <div class="child"  data-modal-target="pulmonologyModal">
-            <img src="img/pulma.svg" alt="Pulmonology">
-            <p>Pulmonology</p>
-          </div>
-
-
-          <div class="child"  data-modal-target="dentistryModal">
-            <img src="img/teeth.svg" alt="Dentistry">
-            <p>Dentistry</p>
-          </div>
-
-          <div class="child"  data-modal-target="urologyModal">
-            <img src="img/uro.svg" alt="Urology">
-            <p>Urology</p>
-
         </div>
+        <button class="right" onclick="rightScroll()">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
       </div>
+</div>
 
-      
-    <!-- Modals -->
-    <!-- Cardiology Modal -->
-    <div class="modal" id="cardiologyModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="cardiologyModal">&times;</span>
-          <h5>Cardiology</h5>
-          <img src="img/cardio.svg" alt="Cardiology">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
 
-  <!-- Diagnostics Modal -->
-  <div class="modal" id="diagnosticsModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="diagnosticsModal">&times;</span>
-          <h5>Diagnostics</h5>
-          <img src="img/diagnostika.svg" alt="Diagnostics">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
 
-  <!-- Surgery Modal -->
-  <div class="modal" id="surgeryModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="surgeryModal">&times;</span>
-          <h5>Surgery</h5>
-          <img src="img/hirurg.svg" alt="Surgery">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
 
-  <!-- House Call Modal -->
-  <div class="modal" id="houseCallModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="houseCallModal">&times;</span>
-          <h5>House Call</h5>
-          <img src="img/home.svg" alt="House Call">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
 
-  <!-- Balneology Modal -->
-  <div class="modal" id="balneologyModal">
-      <div class = "modal-content">
-          <span class="close" data-modal-id="balneologyModal">&times;</span>
-          <h5>Balneology</h5>
-          <img src="img/massage.svg" alt="Balneology">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
 
-  <!-- Neurology Modal -->
-  <div class="modal" id="neurologyModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="neurologyModal">&times;</span>
-          <h5>Neurology</h5>
-          <img src="img/nevro.svg" alt="Neurology">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
-
-  <!-- Check-ups Modal -->
-  <div class="modal" id="checkupsModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="checkupsModal">&times;</span>
-          <h5>Check-ups</h5>
-          <img src="img/obs.svg" alt="Check-ups">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
-
-  <!-- Pedterapy Modal -->
-  <div class="modal" id="pedterapyModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="pedterapyModal">&times;</span>
-          <h5>Pedterapy</h5>
-          <img src="img/pedterapy.svg" alt="Pedterapy">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
-
-  <!-- Logopedia Modal -->
-  <div class="modal" id="logopediaModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="logopediaModal">&times;</span>
-          <h5>Logopedia</h5>
-          <img src="img/pitanie.svg" alt="Logopedia">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
-
-  <!-- Pulmonology Modal -->
-  <div class="modal" id="pulmonologyModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="pulmonologyModal">&times;</span>
-          <h5>Pulmonology</h5>
-          <img src="img/pulma.svg" alt="Pulmonology">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
-
-  <!-- Dentistry Modal -->
-  <div class="modal" id="dentistryModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="dentistryModal">&times;</span>
-          <h5>Dentistry</h5>
-          <img src="img/teeth.svg" alt="Dentistry">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
-
-  <!-- Urology Modal -->
-  <div class="modal" id="urologyModal">
-      <div class="modal-content">
-          <span class="close" data-modal-id="urologyModal">&times;</span>
-          <h5>Urology</h5>
-          <img src="img/uro.svg" alt="Urology">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-  </div>
 
     <footer class="bg-dark" id="footer">
       <div class="container">
