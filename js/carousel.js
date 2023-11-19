@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  let imgObject = ["/img/first.jpg", "/img/second.jpg", "/img/thrid.jpg"];
+  let imgObject = ["img/first.jpg", "img/second.jpg", "img/thrid.jpg"];
 
   let mainImg = 0;
   let prevImg = imgObject.length - 1;
